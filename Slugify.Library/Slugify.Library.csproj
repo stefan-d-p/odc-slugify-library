@@ -15,4 +15,9 @@
         <PackageReference Include="Slugify.Core" Version="4.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="Resources\Slugify.png" />
+      <EmbeddedResource Include="Resources\Slugify.png" />
+    </ItemGroup>
+
 </Project>
